@@ -1,4 +1,4 @@
-package oopsConcept;
+package oopsconcept;
 
 // // Learning Oops main things  for Linked List 
 
