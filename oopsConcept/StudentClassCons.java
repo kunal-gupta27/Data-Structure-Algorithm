@@ -1,4 +1,4 @@
-package oopsConcept;
+package oopsconcept;
 
 // public class StudentClassCons {
 //     public static class Student{
