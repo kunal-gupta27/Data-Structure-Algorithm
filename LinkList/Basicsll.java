@@ -15,6 +15,7 @@ public class Basicsll {
         Node c = new Node(9);
         Node d = new Node(8);
         Node e = new Node(16);
+        
 
         // System.out.println(a.next);   //null
         // System.out.println(a.data);   //0
@@ -26,6 +27,7 @@ public class Basicsll {
         b.next=c;  //5->3->9
         c.next=d;  //5->3->9->8
         d.next=e;  //5->3->9->8->16
+        
 
         // System.out.println(a.next); //$Node@251a69d7
         // System.out.println(b);    //$Node@251a69d7    //these both are same so these are connected 
@@ -37,7 +39,7 @@ public class Basicsll {
         //     System.out.print(temp.data+" ");   //jab temp null pr chala jaayega tab yai kaam nhi karega
         //     temp=temp.next;
         // }
-
+    
         Node temp = a;
         while(temp!=null){
             System.out.print(temp.data+" ");   //this is code for printing the list
