@@ -23,4 +23,6 @@ public class Main {
         System.out.println();
         printDecreasing(5);
     }
+
+    
 }
