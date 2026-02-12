@@ -28,12 +28,12 @@ I am consistently solving problems to strengthen problem-solving skills, optimiz
 - Linked List
 - Stack
 - Queue
-- Hashing
-- Trees
-- Binary Search Tree
-- Heap / Priority Queue
-- Graphs
-- Tries
+<!-- - Hashing -->
+<!-- - Trees -->
+<!-- - Binary Search Tree -->
+<!-- - Heap / Priority Queue -->
+<!-- - Graphs -->
+<!-- - Tries -->
 
 ### 📌 Algorithms
 - Sorting
@@ -42,10 +42,10 @@ I am consistently solving problems to strengthen problem-solving skills, optimiz
 - Binary Search
 - Sliding Window
 - Two Pointers
-- Greedy
-- Dynamic Programming
-- Graph Algorithms (BFS, DFS, Topological Sort)
-- Shortest Path Algorithms
+<!-- - Greedy -->
+<!-- - Dynamic Programming -->
+<!-- - Graph Algorithms (BFS, DFS, Topological Sort) -->
+<!-- - Shortest Path Algorithms -->
 
 ---
 
@@ -53,9 +53,6 @@ I am consistently solving problems to strengthen problem-solving skills, optimiz
 
 - LeetCode
 - GeeksforGeeks
-- CodeStudio
-- InterviewBit
-
 ---
 
 ## 📊 Problem Solving Strategy
@@ -71,7 +68,6 @@ I am consistently solving problems to strengthen problem-solving skills, optimiz
 ## 🔥 Languages Used
 
 - Java
-- (Add more if needed)
 
 ---
 
