@@ -12,7 +12,7 @@ class Node {
     }
 }
 
-public class MainOne {
+public class Mainone {
 
     // Merge two sorted linked lists (bottom pointers)
     static Node merge(Node a, Node b) {
