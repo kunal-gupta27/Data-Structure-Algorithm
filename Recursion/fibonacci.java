@@ -1,10 +1,10 @@
 public class fibonacci {
-    public static int fib(int n){
+    public static int fibo(int n){
         if(n<=1) return n;
-        return fib(n-1)+fib(n-2);
+        return fibo(n-1)+fibo(n-2);
     }
     public static void main(String[] args) {
         int n =10;
-        System.out.print(fib(n));
+        System.out.print(fibo(n));
     }
 }
