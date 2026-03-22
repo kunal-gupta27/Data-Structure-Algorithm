@@ -10,9 +10,9 @@ public class GCD {
     
     //using euclid algorithm
 
-    public static int gcdrec(int x, int y) {
+    public static int gcdrec(int x,int y) {
         if(y==0) return x;
-        return gcdrec(y,x % y);
+        return gcdrec(y,x%y);
     }
     public static void main(String[] args) {
         int x=7;
