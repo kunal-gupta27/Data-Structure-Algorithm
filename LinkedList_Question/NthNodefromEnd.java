@@ -11,7 +11,7 @@ public class NthNodefromEnd {
         int m =size-n+1;
         //mth node from start
         temp=head;
-        for(int i=1;i<=m-1;i++){
+        for(int i = 1;i <= m- 1; i++){
             temp=temp.next;
         }
         return temp;
