@@ -68,9 +68,10 @@ public class arrayImplementation {
         q.add(3);
         q.add(4);
         q.add(5);
+        q.add(6);
         q.display();  // 1 2 3 4
         q.remove();
-        q.display();  // 2 3 4
+        q.display();  // 2 3 4 5
         System.out.println(q.peek()); // 2
         System.out.println(q.size);  // 3
         
