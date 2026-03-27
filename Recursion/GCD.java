@@ -1,3 +1,5 @@
+package Recursion;
+
 public class GCD {
     public static int gcd(int x, int y){
         while(x%y!=0){
