@@ -27,7 +27,6 @@ public class AddTwoNumber {
     return head;
 }
 
-
     static void display(Node head){
         Node t = head;
         while(t!=null){
@@ -51,7 +50,6 @@ public class AddTwoNumber {
             sum += l2.data;
             l2 = l2.next;
         }
-
         carry = sum / 10;
         curr.next = new Node(sum % 10);
         curr = curr.next;
@@ -62,12 +60,9 @@ public class AddTwoNumber {
     public static void main(String[] args) {
     System.out.print("Enter list 1: ");
     Node l1 = takeInput();
-
     System.out.print("Enter list 2: ");
     Node l2 = takeInput();
-
     Node result = addTwoNumber(l1, l2);
-
     System.out.print("Result: ");
     display(result);
 }
