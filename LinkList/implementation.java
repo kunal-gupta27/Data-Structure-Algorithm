@@ -91,36 +91,36 @@ public class implementation {
             }
             System.out.println();
         }
-        // int size(){
-        //     Node temp=head;
-        //     int cnt=0;
-        //     while(temp!=null){
-        //         cnt++;
-        //         temp=temp.next;
-        //     }
-        //     return cnt;
-        // }
+        int size(){
+            Node temp=head;
+            int cnt=0;
+            while(temp!=null){
+                cnt++;
+                temp=temp.next;
+            }
+            return cnt;
+        }
 
         
     }
     public static void main(String[] args) {
         linkedlist ll = new linkedlist();
         ll.insertAtEnd(4);  //4
-        // ll.display();
+        ll.display();
         ll.insertAtEnd(5);  //4->5
-        // ll.display();
+        ll.display();
         ll.insertAtEnd(12);  //4->5->12
-        // ll.display();
+        ll.display();
 
         ll.insertAtHead(24); //24->4->5->12
-        // ll.display();
-        // System.out.println("Linked List size is: "+ll.size);
+        ll.display();
+        System.out.println("Linked List size is: "+ll.size);
         
         ll.insertAt(2, 10);   //24->4->10->5->12
         
         ll.display();
-        //   System.out.println("Linked List size is: "+ll.size);
-        // System.out.println(ll.tail.data);
+          System.out.println("Linked List size is: "+ll.size);
+        System.out.println(ll.tail.data);
         System.out.println(ll.getAt(4));
 
         ll.deleteAt(4);
