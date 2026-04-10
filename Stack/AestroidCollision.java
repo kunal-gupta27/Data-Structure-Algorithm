@@ -16,7 +16,6 @@ public class AestroidCollision {
             }
         }
         int[] res = new int[st.size()];
-
         for(int i=res.length-1;i>=0;i--){
             res[i]=st.pop();
         }
@@ -24,9 +23,7 @@ public class AestroidCollision {
     }
     public static void main(String[] args) {
         int arr[] ={4,7,1,1,2,-3,17,15,-16,-18};
-
         int[] ans = collision(arr);
-
         for(int i=0;i<ans.length;i++){
             System.out.print(ans[i]+" ");
         }
