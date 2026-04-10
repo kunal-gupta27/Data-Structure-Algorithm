@@ -23,7 +23,6 @@ public class Reversekgroup {
 
         if (count == k) {
             curr = reverseKGroup(curr, k);
-
             while (count > 0) {
                 ListNode next = head.next;
                 head.next = curr;
@@ -36,7 +35,6 @@ public class Reversekgroup {
 
         return head;
     }
-
     public static void printList(ListNode head) {
         ListNode temp = head;
         while (temp != null) {
@@ -45,7 +43,6 @@ public class Reversekgroup {
         }
         System.out.println("NULL");
     }
-
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
