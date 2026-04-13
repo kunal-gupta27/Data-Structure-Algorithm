@@ -9,15 +9,14 @@ public class ArrayList {
       public void add(int ele){
         if(size==arr.length){
             int brr[] = Arrays.copyOf(arr,arr.length*2);
-            // arr = new int[brr.length];
-            // arr = Arrays.copyOf(brr,brr.length);
+            arr = new int[brr.length];
+            arr = Arrays.copyOf(brr,brr.length);
             arr = brr;
         }
         arr[idx]=ele;
         idx++;
         size++;
       }
-
       public void set(int idx, int val){
         arr[idx]= val;
       }
