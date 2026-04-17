@@ -49,9 +49,9 @@ public static void main(String[] args) {
         
         System.out.println(length(a));
 
-        // display(a);
-        // System.out.println();
-        // displayrecursive(a);
+        display(a);
+        System.out.println();
+        displayrecursive(a);
 }
 }
 
