@@ -9,7 +9,6 @@ public class displayDll {
             this.val=val;
         }
     }
-
     public static void Ddisplay(Node head){
         Node temp=head;
         while(temp!=null){
@@ -17,8 +16,6 @@ public class displayDll {
             temp=temp.next;
         }
     }
-
-
     // yai dll koo reverse printkarayegi   
     public static void Ddisplayrev(Node tail){
         Node temp=tail;
@@ -42,7 +39,6 @@ public class displayDll {
         System.out.println();
 
     }
-
     public static Node insertAtHead(Node head, int x){
         Node t = new Node(x);
         t.next= head;
