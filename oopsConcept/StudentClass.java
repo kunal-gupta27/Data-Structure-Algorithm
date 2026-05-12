@@ -2,71 +2,71 @@ package oopsconcept;
 
 // // Learning Oops main things  for Linked List 
 
-// public class StudentClass{
-//     // creating new data type
-//     public static class student{    // blueprint class
-//         String name;
-//         int rollno;
-//         double percent;
-//     }
-//     public static void main(String[] args) {
-//         student s1 = new student();  // it is a declaration
-//         s1.name = "priyanshu";
-//         s1.rollno = 144;
-//         s1.percent = 98.2;
-//         System.out.println(s1.name);
+public class StudentClass{
+    // creating new data type
+    public static class student{    // blueprint class
+        String name;
+        int rollno;
+        double percent;
+    }
+    public static void main(String[] args) {
+        student s1 = new student();  // it is a declaration
+        s1.name = "priyanshu";
+        s1.rollno = 144;
+        s1.percent = 98.2;
+        System.out.println(s1.name);
 
-//        student s2 = new student();
-//        s2.name = "tarun";
-//        s2.rollno = 87;
-//        s2.percent = 89.3;
-//        System.out.println(s2.name);  // s1 and s2 aree objects of class student 
-//     }
-// }
-
-
+       student s2 = new student();
+       s2.name = "tarun";
+       s2.rollno = 87;
+       s2.percent = 89.3;
+       System.out.println(s2.name);  // s1 and s2 aree objects of class student 
+    }
+}
 
 
-// /* public static void main(String[] args) {
-//     public static class student{    // blueprint class
-//         String name;
-//         int rollno;
-//         double percent;                        // class ko hum main function kai andar bhi bna sakte hain
-//     }
-//         student s1 = new student();  // it is a declaration
-//         s1.name = "priyanshu";
-//         s1.rollno = 144;
-//         s1.percent = 98.2;
-//         System.out.println(s1.name);
 
-//        student s2 = new student();
-//        s2.name = "tarun";
-//        s2.rollno = 87;
-//        s2.percent = 89.3;
-//        System.out.println(s2.name); */
+
+/* public static void main(String[] args) {
+    public static class student{    // blueprint class
+        String name;
+        int rollno;
+        double percent;                        // class ko hum main function kai andar bhi bna sakte hain
+    }
+        student s1 = new student();  // it is a declaration
+        s1.name = "priyanshu";
+        s1.rollno = 144;
+        s1.percent = 98.2;
+        System.out.println(s1.name);
+
+       student s2 = new student();
+       s2.name = "tarun";
+       s2.rollno = 87;
+       s2.percent = 89.3;
+       System.out.println(s2.name); */
 
        
-    //    public class StudentClass{
-    //     public static class student{    //classes are passed by reference
-    //         String name;
-    //         int rno;
-    //         double percent;
-    //     }
-    //     public static void change(student s1){
-    //          s1.name = "rohan";
-    //     }
-    //     public static void main(String[] args) {
-    //         student s1= new student();
-    //         s1.name = "tarun";
-    //         s1.rno = 45;
-    //         s1.percent = 99.3;
-    //         System.out.println(s1.name);
-    //         //updation 
-    //         change(s1);
-    //         System.out.println(s1.name);
+       public class StudentClass{
+        public static class student{    //classes are passed by reference
+            String name;
+            int rno;
+            double percent;
+        }
+        public static void change(student s1){
+             s1.name = "rohan";
+        }
+        public static void main(String[] args) {
+            student s1= new student();
+            s1.name = "tarun";
+            s1.rno = 45;
+            s1.percent = 99.3;
+            System.out.println(s1.name);
+            //updation 
+            change(s1);
+            System.out.println(s1.name);
             
-    //     }
-    //    } 
+        }
+       } 
 
 
 
