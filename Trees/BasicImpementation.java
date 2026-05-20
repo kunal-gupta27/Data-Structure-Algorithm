@@ -33,6 +33,25 @@ public class BasicImpementation {
         return root.val * nonzeromul(root.left) * nonzeromul(root.right);
     }
 
+    public static int max(Node root){
+        if(root==null) return Integer.MIN_VALUE;
+        return Math.max(root.val, Math.max(max(root.left), max(root.right)));
+    }
+
+     public static int min(Node root){
+        if(root==null) return Integer.MAX_VALUE;
+        return Math.min(root.val, Math.min(max(root.left), max(root.right)));
+    }
+
+    public static int size(Node root){
+        if(root==null) return 0;
+        return 1+ size(root.left) + size(root.right);
+    }
+
+    public static int levels(Node root){
+        if(root==null) return 0;
+        return 1 + Math.max(levels(root.left), levels(root.right));
+    }
     public static void main(String[] args) {
         Node a = new Node(1);  //a is the root
         Node b = new Node(2);
@@ -55,5 +74,10 @@ public class BasicImpementation {
         System.out.println(sum(a));
         System.out.println(product(a));
         System.out.println(nonzeromul(a));
+
+        System.out.println(max(a));
+        System.out.println(min(a));
+        System.out.println(size(a));
+        System.out.println(levels(a));
     }
 }
