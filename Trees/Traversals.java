@@ -3,6 +3,7 @@ package Trees;
 import java.util.*;
 
 public class Traversals {
+    static int n;
     public static class Node{
         int val;
         Node left;
@@ -47,7 +48,16 @@ public class Traversals {
             }
             System.out.println();
     }
+
+    public static void nthlevel(Node root, int level){
+        if(root==null) return;
+        if(level==n) System.out.print(root.val+" ");
+        nthlevel(root.left, level+1);
+        nthlevel(root.right, level+1);
+
+    }
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Node a = new Node(1);  //a is the root
         Node b = new Node(2);
         Node c = new Node(3);
@@ -73,5 +83,8 @@ public class Traversals {
         System.out.println();
         System.out.print("LevelOrder : ");
         levelorder(a);
+        System.out.print("Enter level : ");
+        n = sc.nextInt();
+        nthlevel(a,0);
     }
 }
