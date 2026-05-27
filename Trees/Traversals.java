@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.*;
+
 public class Traversals {
     public static class Node{
         int val;
@@ -34,6 +36,17 @@ public class Traversals {
         preorder(root.right);
         System.out.print(root.val+" ");
     }
+    public static void levelorder(Node root){
+            Queue<Node> q = new LinkedList<>();
+            if(root!=null) q.add(root);
+            while(q.size()>0){
+                Node front = q.remove();
+                System.out.print(front.val+" ");
+                if(front.left!=null) q.add(front.left);
+                if(front.right!=null) q.add(front.right);
+            }
+            System.out.println();
+    }
     public static void main(String[] args) {
         Node a = new Node(1);  //a is the root
         Node b = new Node(2);
@@ -57,5 +70,8 @@ public class Traversals {
         System.out.println();
         System.out.print("Postorder : ");
         postorder(a);
+        System.out.println();
+        System.out.print("LevelOrder : ");
+        levelorder(a);
     }
 }
