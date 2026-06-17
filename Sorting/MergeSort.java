@@ -16,7 +16,6 @@ public class MergeSort {
                 right++;
             }
         }
-
         while(left<=mid){
             l.add(arr[left]);
             left++;
@@ -29,14 +28,13 @@ public class MergeSort {
         for(int i=low;i<=high;i++){
             arr[i] = l.get(i - low);
         }
-
     }
     public static void mS(int[] arr, int low, int high){
        if(low>=high){
         return;
        }
        int mid = (low+high)/2;
-
+       
        mS(arr,low, mid);
        mS(arr,mid+1, high);
        merge(arr, low, mid, high);

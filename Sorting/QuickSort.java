@@ -18,7 +18,6 @@ public class QuickSort {
             arr[i] = arr[j];
             arr[j] = temp;
             }
-
         }
         int temp = arr[j];
         arr[j] = arr[low];
